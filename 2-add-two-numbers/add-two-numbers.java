@@ -20,7 +20,7 @@ class Solution {
         int y=(l2!=null)?l2.val:0;
         int sum=x+y+carry;
         carry=sum/10;
-        carry=sum/10;
+        
         current.next=new ListNode(sum%10);
         current=current.next;
         if(l1!=null)l1=l1.next;
